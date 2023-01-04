@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'motter-corpus-std-regular';
+  src: url("./fonts/MotterCorpusStd-Regular.otf") format("woff")
+}
+
+@font-face {
+  font-family: 'nunito-sans';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&family=Nunito+Sans:wght@400;700&display=swap');
+}
+
+
+
+$font-header: 'motter-corpus-std-regular';
+$font-main: 'nunito-sans';
+$color-green: #2B744F;
+$color-pink: #FFCCBC;
+$color-white: #FFFFFF;
+
+.root {
+  width: 1440px;
+  margin: 0 auto;
+  background: $color-white;
+  box-sizing: border-box;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 80px;
+  padding: 17px 126px 17px 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(9px);
+}
+.logo {
+  margin: 0;
+  font-family: $font-header;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: $color-green;
+  width: 74px;
+  cursor: pointer;
+}
+
+.navbar {
+  width: 382px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 0;
+  display: flex;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-green;
+  list-style: none;
+}
+
+.nav-list__item {
+  margin-right: 24px;
+}
+
+.nav-list__item a {
+  cursor: pointer;
+}
+
+.nav-list__item:last-child {
+  margin-right: 48px;
+}
+
+.btn {
+  border-radius: 124px;
+  width: 163px;
+  height: 46px;
+}
+
+.btn__download {
+  background-color: $color-green;
+  color: $color-pink;
+  border: none;
+  cursor: pointer;
+}
+
+.preview {
+  height: 873px;
+  background-image: url(./img/confettis.png);
+  position: relative;
+}
+
+.preview__img {
+  width: 742px;
+  height: 843px;
+  position: absolute;
+  left: 698px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.preview__title {
+  margin: 0;
+  padding-top: 189px;
+  width: 747px;
+  font-family: $font-header;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 128px;
+  text-align: center; 
+  color: $color-pink ;
+}
+
+.preview__title span {
+  background: linear-gradient(180deg, #84B39B 55%, #2B744F 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/back1.png);
+}
+
+.discover__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 206px;
+  width: 928px;
+  height: 194px;
+  font-family: $font-header;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: $color-white;
+  mix-blend-mode: normal
+}
+
+.discover__text {
+  width: 747px;
+  margin-top: 12px;
+  margin-bottom: 228px;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: $color-white;
+}
