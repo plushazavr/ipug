@@ -44,11 +44,16 @@ $color-white: #FFFFFF;
   line-height: 72px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .root {
   width: 1440px;
   margin: 0 auto;
   background: $color-white;
-  box-sizing: border-box;
+  
 }
 
 .header {
@@ -279,4 +284,62 @@ $color-white: #FFFFFF;
   width: 464px;
   @include text-main;
   color: $color-green;
+}
+
+.calm {
+  position: relative;
+  height: 800px;
+}
+.calm__img {
+  position: absolute;
+  bottom: 0;
+  left: 114px;
+  z-index: 2;
+}
+
+.calm__title {
+  width: 477px;
+  height: 128px;
+  font-family: $font-title;
+  font-size: 128px;
+  line-height: 96px;
+  color: $color-pink;
+  display: flex;
+  padding-top: 101px;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
+  
+}
+.calm h3 {
+  margin: 0;
+  margin-left: 175px;
+}
+
+.calm p {
+  margin: 0;
+  width: 321px;
+  @include text-main;
+  color: $color-green;
+  margin-left: 160px;
+  margin-bottom: 32px;
+}
+
+.calm p:last-child {
+  margin-bottom: 219px;
+  margin-left: 974px;
+}
+
+.reviews {
+  height: 1245px;
+  background-image: url(./img/back2.png);
+  background-repeat: no-repeat;
+}
+
+.reviews h3 {
+  padding-top: 64px;
+  width: 100%;
+  text-align: center;
+  @include text-title;
+  color: $color-white;
 }
