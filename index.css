@@ -409,7 +409,6 @@
 
 .download {
   position: relative;
-  height: 728px;
 }
 
 .download__img {
@@ -424,6 +423,7 @@
   flex-direction: column;
   padding-top: 80px;
   margin-left: 160px;
+  padding-bottom: 93px;
 }
 
 .download__icon {
@@ -457,6 +457,69 @@
   border-color: #2B744F;
   background-color: #FFFFFF;
   color: #2B744F;
+}
+
+.footer {
+  background-color: #2B744F;
+  padding: 135px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe h3 {
+  width: 1067px;
+  font-family: "motter-corpus-std-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: #FFCCBC;
+  margin-bottom: 46px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__input {
+  width: 521px;
+  height: 54px;
+  border: 2px solid #FFCCBC;
+  border-radius: 100px;
+  background-color: #2B744F;
+  padding: 0px 30px;
+}
+
+.form__input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+::placeholder {
+  color: #FFCCBC;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.form__btn {
+  width: 225px;
+  height: 54px;
+  background-color: #FFCCBC;
+  color: #2B744F;
+  margin-left: 45px;
+  border: none;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */

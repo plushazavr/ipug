@@ -408,7 +408,6 @@ $color-white: #FFFFFF;
 
 .download {
   position: relative;
-  height: 728px;
 }
 
 .download__img {
@@ -423,6 +422,7 @@ $color-white: #FFFFFF;
   flex-direction: column;
   padding-top: 80px;
   margin-left: 160px;
+  padding-bottom: 93px;
 }
 
 .download__icon {
@@ -450,4 +450,70 @@ $color-white: #FFFFFF;
   border-color: $color-green;
   background-color: $color-white;
   color: $color-green;
+}
+
+.footer {
+  background-color: $color-green;
+  padding: 135px 0px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.subscribe h3 {
+  width: 1067px;
+  font-family: $font-title;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  color: $color-pink;
+  margin-bottom: 46px;
+  
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__input {
+  width: 521px;
+  height: 54px;
+  border: 2px solid $color-pink;
+  border-radius: 100px;
+  background-color: $color-green;
+  
+  padding: 0px 30px;
+}
+
+.form__input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+::placeholder {
+  color: $color-pink;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.form__btn {
+  width: 225px;
+  height: 54px;
+  background-color: $color-pink;
+  color: $color-green;
+  margin-left: 45px;
+  border: none;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
 }
