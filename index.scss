@@ -405,3 +405,49 @@ $color-white: #FFFFFF;
 .cell__name p:first-child {
   font-weight: 700;
 }
+
+.download {
+  position: relative;
+  height: 728px;
+}
+
+.download__img {
+  position: absolute;
+  bottom: 0;
+  left: 536px;
+}
+
+.download__description {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  margin-left: 160px;
+}
+
+.download__icon {
+  width: 289px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download__title {
+  @include text-title;
+  color: $color-green;
+  width: 483px;
+  margin-bottom: 32px;
+}
+
+.download__text {
+  @include text-main;
+  color: $color-green;
+  width: 472px;
+  margin-bottom: 48px;
+}
+
+.download__btn {
+  border-color: $color-green;
+  background-color: $color-white;
+  color: $color-green;
+}
