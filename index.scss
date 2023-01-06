@@ -130,6 +130,13 @@ $color-white: #FFFFFF;
   background-color: $color-dark-green;
   color: $color-pink;
   border: none;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out
+}
+
+.btn__download:hover {
+  box-shadow: 0 0 40px 40px $color-pink inset;
+  color: $color-dark-green;
 }
 
 .preview {
@@ -233,6 +240,13 @@ $color-white: #FFFFFF;
   border: 2px solid $color-pink;
   background-color: $color-dark-green;
   color: $color-pink;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out
+}
+
+.info__btn:hover {
+  box-shadow: 0 0 40px 40px $color-pink inset;
+  color: $color-green;
 }
 
 .info__img {  
@@ -457,6 +471,13 @@ $color-white: #FFFFFF;
   border-color: $color-green;
   background-color: $color-white;
   color: $color-green;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.download__btn:hover {
+  box-shadow: 0 0 40px 40px $color-dark-green inset;
+  color: $color-pink;
 }
 
 .footer {
@@ -495,6 +516,8 @@ $color-white: #FFFFFF;
   border-radius: 100px;
   background-color: $color-dark-green;  
   padding: 0px 30px;
+  caret-color: $color-pink;
+  color: $color-pink;
 }
 
 .form__input:focus {
@@ -524,6 +547,14 @@ $color-white: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.form__btn:hover {
+  box-shadow: 0 0 40px 40px $color-dark-green inset;
+  color: $color-pink;
+  border: 2px solid $color-pink;
 }
 
 .navbar_footer {

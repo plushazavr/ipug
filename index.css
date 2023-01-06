@@ -103,6 +103,12 @@
   background-color: #0B4141;
   color: #FFCCBC;
   border: none;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.btn__download:hover {
+  box-shadow: 0 0 40px 40px #FFCCBC inset;
+  color: #0B4141;
 }
 
 .preview {
@@ -213,6 +219,12 @@
   border: 2px solid #FFCCBC;
   background-color: #0B4141;
   color: #FFCCBC;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.info__btn:hover {
+  box-shadow: 0 0 40px 40px #FFCCBC inset;
+  color: #2B744F;
 }
 
 .info__img {
@@ -462,6 +474,12 @@
   border-color: #2B744F;
   background-color: #FFFFFF;
   color: #2B744F;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.download__btn:hover {
+  box-shadow: 0 0 40px 40px #0B4141 inset;
+  color: #FFCCBC;
 }
 
 .footer {
@@ -498,6 +516,8 @@
   border-radius: 100px;
   background-color: #0B4141;
   padding: 0px 30px;
+  caret-color: #FFCCBC;
+  color: #FFCCBC;
 }
 
 .form__input:focus {
@@ -527,6 +547,13 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out;
+}
+
+.form__btn:hover {
+  box-shadow: 0 0 40px 40px #0B4141 inset;
+  color: #FFCCBC;
+  border: 2px solid #FFCCBC;
 }
 
 .navbar_footer {
