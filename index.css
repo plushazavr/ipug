@@ -345,4 +345,66 @@
   color: #FFFFFF;
 }
 
+.table {
+  width: 960px;
+  margin: 64px auto 0px;
+  display: flex;
+}
+
+.row1 {
+  margin-right: 24px;
+}
+
+.row2 {
+  margin-right: 24px;
+}
+
+.cell {
+  width: 304px;
+  padding: 20px;
+  margin-bottom: 24px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(6px);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cell__review {
+  font-family: "Nunito Sans";
+  color: #2B744F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 16px;
+  width: 304px;
+}
+
+.cell__author {
+  width: 264px;
+  display: flex;
+  align-items: center;
+}
+
+.cell__img {
+  margin-right: 12px;
+  width: 48px;
+  height: 48px;
+}
+
+.cell__name {
+  width: 204px;
+  color: #2B744F;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.cell__name p:first-child {
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=index.css.map */
