@@ -51,9 +51,14 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2B744F;
+  color: #0B4141;
   width: 74px;
-  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo_footer {
+  width: 57px;
+  color: #FFCCBC;
 }
 
 .navbar {
@@ -95,7 +100,7 @@
 }
 
 .btn__download {
-  background-color: #2B744F;
+  background-color: #0B4141;
   color: #FFCCBC;
   border: none;
 }
@@ -129,7 +134,7 @@
 }
 
 .preview__title span {
-  background: linear-gradient(180deg, #84B39B 55%, #2B744F 50%);
+  background: linear-gradient(180deg, #84B39B 55%, #0B4141 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -172,7 +177,7 @@
 
 .relax {
   height: 800px;
-  background-color: #2B744F;
+  background-color: #0B4141;
   position: relative;
 }
 
@@ -206,7 +211,7 @@
 .info__btn {
   margin-top: 48px;
   border: 2px solid #FFCCBC;
-  background-color: #2B744F;
+  background-color: #0B4141;
   color: #FFCCBC;
 }
 
@@ -460,9 +465,10 @@
 }
 
 .footer {
-  background-color: #2B744F;
-  padding: 135px 0px 80px;
+  background-color: #0B4141;
+  padding: 135px 0px 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -482,6 +488,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 155px;
 }
 
 .form__input {
@@ -489,7 +496,7 @@
   height: 54px;
   border: 2px solid #FFCCBC;
   border-radius: 100px;
-  background-color: #2B744F;
+  background-color: #0B4141;
   padding: 0px 30px;
 }
 
@@ -512,7 +519,7 @@
   width: 225px;
   height: 54px;
   background-color: #FFCCBC;
-  color: #2B744F;
+  color: #0B4141;
   margin-left: 45px;
   border: none;
   font-family: "Nunito Sans";
@@ -520,6 +527,37 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+}
+
+.navbar_footer {
+  width: 1120px;
+  margin: 0px auto 80px;
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social p {
+  margin-left: 30px;
+  width: 120px;
+  color: #FFCCBC;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 96px;
+}
+
+.social a {
+  margin-right: 9px;
+}
+
+.social a:last-child {
+  margin-right: 0px;
 }
 
 /*# sourceMappingURL=index.css.map */

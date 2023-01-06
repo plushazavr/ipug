@@ -27,6 +27,7 @@
 $font-title: 'motter-corpus-std-regular';
 $font-main: 'Nunito Sans';
 $color-green: #2B744F;
+$color-dark-green: #0B4141;
 $color-pink: #FFCCBC;
 $color-white: #FFFFFF;
 
@@ -76,9 +77,15 @@ $color-white: #FFFFFF;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: $color-green;
+  color: $color-dark-green;
   width: 74px;
-  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo_footer {
+  width: 57px;
+  color: $color-pink;
+  
 }
 
 .navbar {
@@ -120,7 +127,7 @@ $color-white: #FFFFFF;
 }
 
 .btn__download {
-  background-color: $color-green;
+  background-color: $color-dark-green;
   color: $color-pink;
   border: none;
 }
@@ -154,7 +161,7 @@ $color-white: #FFFFFF;
 }
 
 .preview__title span {
-  background: linear-gradient(180deg, #84B39B 55%, #2B744F 50%);
+  background: linear-gradient(180deg, #84B39B 55%, #0B4141 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -194,7 +201,7 @@ $color-white: #FFFFFF;
 
 .relax {
   height: 800px;
-  background-color: $color-green;
+  background-color: $color-dark-green;
   
   position: relative;
 }
@@ -224,7 +231,7 @@ $color-white: #FFFFFF;
 .info__btn {
   margin-top: 48px;
   border: 2px solid $color-pink;
-  background-color: $color-green;
+  background-color: $color-dark-green;
   color: $color-pink;
 }
 
@@ -453,9 +460,10 @@ $color-white: #FFFFFF;
 }
 
 .footer {
-  background-color: $color-green;
-  padding: 135px 0px 80px;
+  background-color: $color-dark-green;
+  padding: 135px 0px 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -477,6 +485,7 @@ $color-white: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 155px;
 }
 
 .form__input {
@@ -484,8 +493,7 @@ $color-white: #FFFFFF;
   height: 54px;
   border: 2px solid $color-pink;
   border-radius: 100px;
-  background-color: $color-green;
-  
+  background-color: $color-dark-green;  
   padding: 0px 30px;
 }
 
@@ -508,7 +516,7 @@ $color-white: #FFFFFF;
   width: 225px;
   height: 54px;
   background-color: $color-pink;
-  color: $color-green;
+  color: $color-dark-green;
   margin-left: 45px;
   border: none;
   font-family: $font-main;
@@ -516,4 +524,35 @@ $color-white: #FFFFFF;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+}
+
+.navbar_footer {
+  width: 1120px;
+  margin: 0px auto 80px;
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social p {
+  margin-left: 30px;
+  width: 120px;
+  color: $color-pink;
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 96px;
+}
+
+.social a {
+  margin-right: 9px;
+}
+
+.social a:last-child {
+  margin-right: 0px;
 }
