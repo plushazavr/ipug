@@ -6,4 +6,7 @@
 * HTML, SCSS
 * Flexbox верстка
 
-[Макет Figma](https://www.figma.com/file/Bt2dqqKRxcTJsaH6WFmtLk/iPUG?node-id=0%3A1&t=2rnkRq9MHY4jHZt3-1)
+## Планы по доработке: 
+* адаптивность страницы 
+* перенос на vue3.js 
+* валидация форм на стороне клиента
